@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "seed": 20260817,
+  "built_utc": "2026-08-22T11:46:45.023846+00:00",
+  "sha256": "0a233fb51cc714e8",
+  "n_items": 374,
+  "n_proteins": 187,
+  "min_refs": 2,
+  "min_targets_per_sign": 2,
+  "min_usual_share": 0.7,
+  "ref_match_tolerance": 0.6,
+  "n_sign_conflicted_removed": 111,
+  "components": [
+    "causal_ppi",
+    "collectri",
+    "kinaseextra"
+  ]
+}
