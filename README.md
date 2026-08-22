@@ -1,4 +1,4 @@
-﻿# ExceptBench
+﻿# SigHabitBench
 
 Do large language models know how proteins regulate each other, or just what
 each protein *usually* does?
@@ -20,7 +20,8 @@ behaviour, matched against interactions where it does the usual thing.
 - 
 otebooks/ — analysis, numbered in run order
 - src/ — shared code
-- esults/ — raw model responses
+- 
+esults/ — raw model responses
 - igures/ — figures
 
 ## Setup
