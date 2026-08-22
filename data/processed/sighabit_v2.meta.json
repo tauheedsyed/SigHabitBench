@@ -1,0 +1,14 @@
+{
+  "version": "v2",
+  "seed": 20260817,
+  "sha256": "6c04ef4a25e0c52c",
+  "n_items": 216,
+  "n_proteins": 108,
+  "built_utc": "2026-08-22T11:49:52.457473+00:00",
+  "min_refs": 2,
+  "usual_threshold_stim": 0.7,
+  "usual_threshold_inh": 0.62,
+  "ref_match_tolerance": 0.6,
+  "max_stim_multiple": 2.0,
+  "note": "inhibit-default proteins are rare, so their habit threshold is relaxed and stimulate-default proteins are capped, to keep both directions of the habit measurable"
+}
