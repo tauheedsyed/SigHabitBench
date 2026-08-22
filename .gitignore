@@ -1,0 +1,24 @@
+﻿# Secrets — NEVER commit
+.env
+*.key
+secrets.json
+
+# Large raw data — regenerate from the manifest instead
+data/raw/*.parquet
+data/raw/*.tsv
+data/raw/*.txt
+
+# Python noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Scratch
+scratch/
+*.tmp
