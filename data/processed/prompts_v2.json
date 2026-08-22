@@ -2,5 +2,7 @@
   "system": "You are an expert molecular biologist. Reply with a single JSON object and nothing else. No preamble, no markdown, no code fences.",
   "schema": "{\"answer\": \"stimulates\" | \"inhibits\" | \"not_established\", \"confidence\": <integer 1-10>, \"rationale\": \"<one sentence>\"}",
   "schema_swapped": "{\"answer\": \"inhibits\" | \"stimulates\" | \"not_established\", \"confidence\": <integer 1-10>, \"rationale\": \"<one sentence>\"}",
-  "guide": "Answer stimulates if the net effect is activating, inhibits if repressing, or not_established if no such direct relationship is documented."
+  "guide": "Answer stimulates if the net effect is activating, inhibits if repressing, or not_established if no such direct relationship is documented.",
+  "guide_usually": "Answer stimulates if the net effect is more often activating, inhibits if more often repressing, or not_established if you do not know.",
+  "note": "both question types use 'net regulatory effect ... at the protein level' and the same answer labels, so wording cannot explain a difference between them"
 }
