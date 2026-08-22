@@ -1,0 +1,7 @@
+{
+  "gpt-oss-120b": "DeepInfra",
+  "qwen3-32b": "DeepInfra",
+  "gemini-3.7-flash": null,
+  "gpt-5.6-luna": null,
+  "gpt-5.6-terra": null
+}
