@@ -7,7 +7,9 @@
   "claude-haiku-4.5": null,
   "llama-3.3-70b": "DeepInfra",
   "mistral-large": null,
-  "deepseek-v3": "Novita",
-  "gemma-3-27b": "DeepInfra",
-  "qwen3-235b": null
+  "deepseek-v3": "DeepInfra",
+  "gemma-3-27b": "Novita",
+  "qwen3-235b": null,
+  "llama-3.1-8b": "DeepInfra",
+  "medgemma-27b": null
 }

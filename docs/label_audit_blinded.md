@@ -37,7 +37,7 @@ decreases or increases the activity or level of the second?**
 
 **Papers:** [19029143](https://pubmed.ncbi.nlm.nih.gov/19029143/)  [21722264](https://pubmed.ncbi.nlm.nih.gov/21722264/)
 
-**Verdict:** ` X  `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -130,7 +130,7 @@ PMID: 15105429 says "In the case of the HLA-DRA gene, which encodes the HLA-DR h
 
 **Papers:** [17328886](https://pubmed.ncbi.nlm.nih.gov/17328886/)  [22072985](https://pubmed.ncbi.nlm.nih.gov/22072985/)
 
-**Verdict:** ` N  `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
 **Note:** PMID: 17328886 says "Analysis of fetal limbs showed that Gli2 is a negative regulator and Gli3 a positive regulator of type X collagen expression."
 
@@ -376,7 +376,7 @@ PMID: 19211844 says "Here, we show that inhibition of PI3K-PKB signaling in huma
 
 **Papers:** [15604409](https://pubmed.ncbi.nlm.nih.gov/15604409/)  [20816089](https://pubmed.ncbi.nlm.nih.gov/20816089/)  [23262029](https://pubmed.ncbi.nlm.nih.gov/23262029/)
 
-**Verdict:** ` ?  `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -395,9 +395,11 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [10946277](https://pubmed.ncbi.nlm.nih.gov/10946277/)  [17645498](https://pubmed.ncbi.nlm.nih.gov/17645498/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y `  (Y / N / ? / X)
 
-**Note:** 
+**Note:**  PMID: 10946277 says "The MHC class II transactivator (CIITA) activates the expression of multiple genes involved in Ag presentation, but inhibits Th2-type cytokine production, including IL-4, during Th1 cell differentiation. " and "CIITA mutants that retain the ability to interact with CBP/p300 are sufficient to inhibit NF-AT-mediated IL-4 gene expression."
+
+PMID: 17645498 says "In conclusion, CIITA was active in the repression of transcription activation of human IL-4 gene in both the T-cell line and the primary human CD4 T cells by preventing transcription factors from binding to IL-4 promoter through histone hypoacetylation. Our data confirm a potential significant role of CIITA in controlling Th1/Th2 differentiation via modulation of IL-4 gene activation."
 
 ---
 
@@ -412,9 +414,11 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [16464847](https://pubmed.ncbi.nlm.nih.gov/16464847/)  [24058639](https://pubmed.ncbi.nlm.nih.gov/24058639/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` N  `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 16464847 says "RFX5 specifically interacts with histone deacetylase 2 (HDAC2) and the mammalian transcriptional repressor (mSin3B), whereas RFX1 preferably interacts with HDAC1 and mSin3A. HDAC2 cooperates with RFX5 to down-regulate collagen promoter activity, whereas HDAC1 enhances inhibition of collagen promoter activity by RFX1." and "Collectively, our data strongly indicate two separate pathways for RFX proteins to repress collagen gene expression as follows: one for RFX5/HDAC2 in interferon-gamma-mediated repression, and the other for RFX1/HDAC1 in methylation-mediated collagen silencing."
+
+PMID: 24058639 says "n the functional studies, HDAC1 overexpression magnified the inhibitory effect of Fli1 on the COL1A2 promoter. Moreover, pharmacological blockade of HDAC1 by entinostat enhanced collagen production in dermal fibroblasts. Collectively, these results indicate that under quiescent conditions Fli1 recruits HDAC1/p300 to the COL1A2 promoter and suppresses the expression of the COL1A2 gene by chromatin remodeling through histone deacetylation. TGF-β-dependent phosphorylation of Fli1 at threonine 312 is a critical step regulating the remodeling of the Fli1 transcription repressor complex, leading to transcriptional activation of the COL1A2 gene."
 
 ---
 
@@ -429,9 +433,16 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [15358760](https://pubmed.ncbi.nlm.nih.gov/15358760/)  [15922656](https://pubmed.ncbi.nlm.nih.gov/15922656/)  [16901265](https://pubmed.ncbi.nlm.nih.gov/16901265/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 15358760 says "Our results showed that sterol depletion activated SREBP2 and increased its target, low density lipoprotein receptor mRNA, with a concurrent decrease in the ABCA1 mRNA." and "Overexpression of the N terminus of SREBP2 (SREBP2(N)), an active form of SREBP2, also inhibited the ABCA1 promoter activity."
+
+PMID: 15922656 says "Shutdown of ABCA1 expression in the absence of sterols or in certain tissues is mediated by corepressor complexes involving unliganded LXR, sterol-regulatory element binding protein 2 (SREBP2), Sp3, and the SCAN-domain protein ZNF202, which also impacts nuclear receptor signaling. "
+
+PMID: 16901265 says "However, it was subsequently reported that ABCA1 expression is down-regulated by SREBP-2 through binding of SREBP-2 to an E-box element in ABCA1's proximal promoter. As statin treatment induces SREBP-2 activation, this may provide an alternative explanation for the statin-mediated down-regulation of ABCA1" and "We observed increased ABCA1 mRNA levels in SREBP-2-overexpressing cells and decreased levels in cells lacking a functional SREBP-2 pathway, which were restored when the SREBP-2 pathway was reinstated."
+
+
+CONFLICT: two papers support inhibition (SREBP2 overexpression inhibits the ABCA1 promoter; ABCA1 down-regulated by SREBP-2 via an E-box), but the third reports increased ABCA1 mRNA in SREBP-2-overexpressing cells. Counted Y on the majority and what I understood.
 
 ---
 
@@ -446,9 +457,11 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [12879017](https://pubmed.ncbi.nlm.nih.gov/12879017/)  [18006804](https://pubmed.ncbi.nlm.nih.gov/18006804/)  [19854132](https://pubmed.ncbi.nlm.nih.gov/19854132/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` N `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 18006804 says "In this report, we provide first experimental evidence showing a direct involvement of DeltaDNMT3B4 in regulating RASSF1A promoter methylation in human lung cancer cells. Knockdown of DeltaDNMT3B4 expression by small interfering RNA resulted in a rapid demethylation of RASSF1A promoter and reexpression of RASSF1A mRNA but had no effect on p16 promoter in the lung cancer cells. Conversely, normal bronchial epithelial cells with stably transfected DeltaDNMT3B4 gained an increased DNA methylation in RASSF1A promoter but not p16 promoter."
+
+says " We show that HOXB3 binds to the DNA methyltransferase DNMT3B gene and increases its expression. DNMT3B, in turn, is recruited to the RASSF1A promoter, resulting in hypermethylation and silencing of RASSF1A expression." and "Expression analysis in human lung adenocarcinoma samples reveals that RASSF1A silencing strongly correlates with overexpression of HOXB3 and DNMT3B."
 
 ---
 
@@ -463,9 +476,12 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [17483309](https://pubmed.ncbi.nlm.nih.gov/17483309/)  [22898640](https://pubmed.ncbi.nlm.nih.gov/22898640/)  [9710122](https://pubmed.ncbi.nlm.nih.gov/9710122/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** `  Y `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 17483309 says "We also found that HMGA1a up-regulates cyclooxygenase 2 (COX-2) expression in transgenic tumors. Moreover, both HMGA1a and COX-2 expression are up-regulated in high-grade human leiomyosarcomas." and "These findings show that HMGA1a functions as an oncogene when overexpressed in the uterus and contributes to the pathogenesis of human uterine cancer by activating COX-2 expression."
+
+PMID: 22898640 says "HMGA1 binds directly to the COX-2 promoter at an AT-rich region in vivo in three pancreatic cancer cell lines. In addition, HMGA1 induces COX-2 expression in pancreatic epithelial cells, while knock-down of HMGA1 results in repression of COX-2 in pancreatic cancer cells. "
+
 
 ---
 
@@ -480,9 +496,11 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [10761931](https://pubmed.ncbi.nlm.nih.gov/10761931/)  [16275766](https://pubmed.ncbi.nlm.nih.gov/16275766/)  [24006458](https://pubmed.ncbi.nlm.nih.gov/24006458/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 16275766 says "Previous work from our laboratory revealed a repressor function for the T-box transcription factor, T-bet, in IL-2 gene transcription. Here, we report that T-bet(S508) is required for the optimal repression of IL-2 production in developing Th1 cells."
+
+
 
 ---
 
@@ -497,7 +515,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [10806474](https://pubmed.ncbi.nlm.nih.gov/10806474/)  [10973983](https://pubmed.ncbi.nlm.nih.gov/10973983/)  [12554777](https://pubmed.ncbi.nlm.nih.gov/12554777/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -514,9 +532,13 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [12743120](https://pubmed.ncbi.nlm.nih.gov/12743120/)  [1620116](https://pubmed.ncbi.nlm.nih.gov/1620116/)  [21212137](https://pubmed.ncbi.nlm.nih.gov/21212137/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 12743120 says "Finally, E4BP4 overexpression inhibited PTH-induced activity of a cyclooxygenase-2 promoter-reporter construct. Our data suggest a role for E4BP4 in attenuation of PTH target gene transcription in osteoblasts."
+
+PMID: 21212137 says "Overexpression of NFIL3 in granulosa cells inhibited the induction of prostaglandin-endoperoxide synthase 2 (Ptgs2), progesterone receptor (Pgr), epiregulin (Ereg), and amphiregulin (Areg) and down-regulated levels of prostaglandin E2. The inhibitory effect on Ptgs2 induction was reversed by NFIL3 small interfering RNA treatment."
+
+
 
 ---
 
@@ -531,7 +553,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [10329476](https://pubmed.ncbi.nlm.nih.gov/10329476/)  [11216640](https://pubmed.ncbi.nlm.nih.gov/11216640/)  [9694812](https://pubmed.ncbi.nlm.nih.gov/9694812/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -548,7 +570,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [11287612](https://pubmed.ncbi.nlm.nih.gov/11287612/)  [18287091](https://pubmed.ncbi.nlm.nih.gov/18287091/)  [18852286](https://pubmed.ncbi.nlm.nih.gov/18852286/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -565,9 +587,11 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [17101782](https://pubmed.ncbi.nlm.nih.gov/17101782/)  [23870513](https://pubmed.ncbi.nlm.nih.gov/23870513/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
-**Note:** 
+**Note:**  PMID: 17101782 says "Furthermore, FoxM1 protein is phosphorylated by checkpoint kinase 2 (Chk2) in response to DNA damage. This phosphorylation of FoxM1 on serine residue 361 caused increased stability of the FoxM1 protein with corresponding increased transcription of XRCC1 and BRCA2 genes, both of which are required for repair of DNA damage. These results identify a novel role for FoxM1 in the transcriptional response during DNA damage/checkpoint signaling and show a novel mechanism by which Chk2 protein regulates expression of DNA repair enzymes."
+
+
 
 ---
 
@@ -582,9 +606,13 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [11359773](https://pubmed.ncbi.nlm.nih.gov/11359773/)  [11489891](https://pubmed.ncbi.nlm.nih.gov/11489891/)  [12794087](https://pubmed.ncbi.nlm.nih.gov/12794087/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 12794087 says "We previously showed that MKP-7 suppresses MAPK activation in COS-7 cells in the order of selectivity, JNK >> p38 > ERK, but interacts with ERK as well as JNK and p38. "
+
+CAVEAT: the paper reports ERK as the LEAST affected of the three MAPKs
+(JNK >> p38 > ERK). Direction supports inhibition but the effect on MAPK1
+specifically is weak.
 
 ---
 
@@ -599,7 +627,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [11904294](https://pubmed.ncbi.nlm.nih.gov/11904294/)  [8423803](https://pubmed.ncbi.nlm.nih.gov/8423803/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** `  ? `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -616,7 +644,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [15699339](https://pubmed.ncbi.nlm.nih.gov/15699339/)  [21296876](https://pubmed.ncbi.nlm.nih.gov/21296876/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -633,7 +661,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [24328763](https://pubmed.ncbi.nlm.nih.gov/24328763/)  [25132912](https://pubmed.ncbi.nlm.nih.gov/25132912/)  [26611876](https://pubmed.ncbi.nlm.nih.gov/26611876/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -650,10 +678,15 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [11893416](https://pubmed.ncbi.nlm.nih.gov/11893416/)  [19181930](https://pubmed.ncbi.nlm.nih.gov/19181930/)  [9574548](https://pubmed.ncbi.nlm.nih.gov/9574548/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` Y  `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 11893416 says "Binding of the transcription factor ZEB (NIL-2-a) to the negative regulatory element NRE-A plays a critical role in silencing IL-2 expression in the EL-4 cell line, a murine Th1-like lymphoma."
 
+
+PMID: 19181930 says " Here we examine the role of zinc finger E-box-binding protein (ZEB) 1, a homeodomain/Zn finger transcription factor, as a repressor of IL-2 gene transcription. We show here that ZEB1 is expressed in non-stimulated and stimulated T cells and using chromatin immunoprecipitation assays we show that ZEB1 binds to the IL-2 promoter. Over-expression of ZEB1 can repress IL-2 promoter activity, as well as endogenous IL-2 mRNA production in EL-4 T cells, and this repression is dependent on the ZEB-binding site at -100. " and "Thus, ZEB1 may function to recruit a repressor complex to the IL-2 promoter."
+
+PMID: 9574548 says "We provide evidence that repression of IL-2 gene expression in Th2 cells and partial repression in Th1 cells are mediated by ZEB, a zinc finger, E box-binding transcription factor. This factor binds to a negative regulatory element, NRE-A, in the IL-2 promoter, thereby acting as a potent repressor of IL-2 transcription."
+ 
 ---
 
 ### A37
@@ -667,7 +700,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [11172707](https://pubmed.ncbi.nlm.nih.gov/11172707/)  [11985607](https://pubmed.ncbi.nlm.nih.gov/11985607/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -684,7 +717,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [10644735](https://pubmed.ncbi.nlm.nih.gov/10644735/)  [11489946](https://pubmed.ncbi.nlm.nih.gov/11489946/)  [11976726](https://pubmed.ncbi.nlm.nih.gov/11976726/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ?  `  (Y / N / ? / X)
 
 **Note:** 
 
@@ -701,9 +734,9 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [20301196](https://pubmed.ncbi.nlm.nih.gov/20301196/)  [27314562](https://pubmed.ncbi.nlm.nih.gov/27314562/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** `  Y `  (Y / N / ? / X)
 
-**Note:** 
+**Note:** PMID: 27314562 says "Overexpression of PTPRB reduced cell proliferation rate, colony formation efficiency, soft agar growth and cell invasion in A549 and H1299 cells, as well as tumour growth rate in A549 xenograft. Knockdown of PTPRB increased Src phosphorylation and cell invasion, which was reversed by Src inhibitor PP2."
 
 ---
 
@@ -718,7 +751,7 @@ PMID: 15604409 says " Knockdown of Foxo3a expression inhibited the starvation-in
 
 **Papers:** [12930845](https://pubmed.ncbi.nlm.nih.gov/12930845/)  [15082798](https://pubmed.ncbi.nlm.nih.gov/15082798/)  [19413330](https://pubmed.ncbi.nlm.nih.gov/19413330/)
 
-**Verdict:** `   `  (Y / N / ? / X)
+**Verdict:** ` ? `  (Y / N / ? / X)
 
 **Note:** 
 
