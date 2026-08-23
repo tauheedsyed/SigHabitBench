@@ -3,5 +3,11 @@
   "qwen3-32b": "DeepInfra",
   "gemini-3.7-flash": null,
   "gpt-5.6-luna": null,
-  "gpt-5.6-terra": null
+  "gpt-5.6-terra": null,
+  "claude-haiku-4.5": null,
+  "llama-3.3-70b": "DeepInfra",
+  "mistral-large": null,
+  "deepseek-v3": "Novita",
+  "gemma-3-27b": "DeepInfra",
+  "qwen3-235b": null
 }
