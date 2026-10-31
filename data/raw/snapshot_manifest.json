@@ -1,0 +1,45 @@
+{
+  "downloaded": "2026-08-22",
+  "omnipath_package": "1.0.12",
+  "query_parameters": {
+    "organism": "human",
+    "genesymbols": true
+  },
+  "components": {
+    "core omnipath dataset": 86189,
+    "CollecTRI": 64516,
+    "KinaseExtra": 25643
+  },
+  "filters": [
+    "directed",
+    "signed exactly one way",
+    "both partners single proteins",
+    ">=2 supporting publications",
+    "sign-conflicted pairs removed"
+  ],
+  "omnipath_license_filter": "academic (package default)",
+  "resources": {
+    "source_labels": 114,
+    "distinct_resources": 87,
+    "note": "source labels count derived labels such as TRRUST_CollecTRI separately"
+  },
+  "files": {
+    "all_interactions.parquet": {
+      "bytes": 10266900,
+      "sha256": "a77a642515344f18fddfa6795823e1c888667d0a755094d8a249e832d0d6b20f"
+    },
+    "causal_ppi.parquet": {
+      "bytes": 3152617,
+      "sha256": "4c4e7bf11f7b462f9af3e641951f2dde1453af955942971f37528e81ad836b1b"
+    },
+    "collectri.parquet": {
+      "bytes": 1625894,
+      "sha256": "8266c1bae5d33f1b2fb70368f06ff3579fb49ae12741f0de00b3dba06bc15204"
+    },
+    "kinaseextra.parquet": {
+      "bytes": 2035315,
+      "sha256": "f12d778ded5f298ee1b25ed906db9b2128a40e32262843056e241e477285ee26"
+    }
+  },
+  "redistribution": "The parquet files are not redistributed because several OmniPath source resources carry their own licences. Re-download with the omnipath package and compare against these checksums, or request the snapshot from the authors."
+}
