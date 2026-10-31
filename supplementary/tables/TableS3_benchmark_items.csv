@@ -1,0 +1,217 @@
+item_id,source,target,source_uniprot,target_uniprot,ground_truth,condition,protein_habit,protein_class,group,habit_activation_fraction,habit_strength,supporting_publications,component,activation_fraction_all_evidence_excluding_item
+37e0d9cb04671643,NFIL3,PTGS2,Q16649,P35354,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3636,0.636,3,collectri,0.6757000000000001
+dcc82b29fe760fc5,NFIL3,IL3,Q16649,P08700,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3636,0.636,3,collectri,0.6486000000000001
+de13554cc0cbbfcf,DOK1,ITGB2,Q99704,P05107,inhibits,habit_agrees,inhibits,kinase,kinase,0.2857,0.714,2,causal_ppi,0.2222
+6fb95008d8ddd717,DOK1,RASGRP3,Q99704,Q8IV61,stimulates,habit_misleads,inhibits,kinase,kinase,0.2857,0.714,2,causal_ppi,0.1111
+1d82d916452f70e6,HDAC1,ABCB1,Q13547,P08183,inhibits,habit_agrees,inhibits,transcription factor,tf,0.1667,0.833,2,collectri,0.12090000000000001
+d22a8075a927889b,HDAC1,COL1A2,Q13547,P08123,stimulates,habit_misleads,inhibits,transcription factor,tf,0.1667,0.833,2,collectri,0.10990000000000001
+b084820ba2fc03fb,NEDD4,RAPGEF2,P46934,Q9Y4G8,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.375,0.625,3,causal_ppi,0.375
+051c6cf6278b8aaa,NEDD4,BECN1,P46934,Q14457,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.375,0.625,3,causal_ppi,0.33330000000000004
+ceaf1172fa2ea51f,PTPN11,Q96EV4,Q06124,Q96EV4,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.3125,0.6880000000000001,6,causal_ppi,0.3778
+a308bc787e4f5442,PTPN11,IGF1R,Q06124,P08069,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.3125,0.6880000000000001,6,causal_ppi,0.3556
+f66bdfa4b7f7c328,PTPN1,PRKCD,P18031,Q05655,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.0909,0.909,3,causal_ppi,0.1
+3aee534ea833d7be,PTPN1,CTTN,P18031,Q14247,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.0909,0.909,3,kinaseextra,0.075
+9207c89ce6567326,BCL2L11,BCL2,O43521,P10415,inhibits,habit_agrees,inhibits,other,other_enzyme,0.2857,0.714,23,causal_ppi,0.42860000000000004
+37464f42309c308b,BCL2L11,BAX,O43521,Q07812,stimulates,habit_misleads,inhibits,other,other_enzyme,0.2857,0.714,17,causal_ppi,0.2857
+7b64bab207a9bf49,NLK,SMAD4,Q9UBE8,Q13485,inhibits,habit_agrees,inhibits,kinase,kinase,0.25,0.75,3,causal_ppi,0.36360000000000003
+fcabebd9f5c298ba,NLK,STAT3,Q9UBE8,P40763,stimulates,habit_misleads,inhibits,kinase,kinase,0.25,0.75,3,causal_ppi,0.2727
+170254c60df55b92,CAMK4,HDAC5,Q16566,Q9UQL6,inhibits,habit_agrees,inhibits,kinase,kinase,0.2857,0.714,21,kinaseextra,0.7143
+4e97b22560b64bf2,CAMK4,CREB1,Q16566,P16220,stimulates,habit_misleads,inhibits,kinase,kinase,0.2857,0.714,21,causal_ppi,0.6429
+7c21e9abe219404c,PPM1D,H2AX,O15297,P16104,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.3333,0.667,3,kinaseextra,0.21430000000000002
+57c23d0d38da0ae0,PPM1D,MDM4,O15297,O15151,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.3333,0.667,3,kinaseextra,0.1429
+c054c21ad5e6c88f,PTPN6,Q96EV4,P29350,Q96EV4,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.1429,0.857,6,causal_ppi,0.1429
+5038076284abd7d3,PTPN6,ABL1,P29350,P00519,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.1429,0.857,6,causal_ppi,0.1143
+599711cd08cb8cf4,BIRC3,CASP7,Q13489,P55210,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.25,0.75,2,causal_ppi,0.4
+e96a0089201df68a,BIRC3,RIPK2,Q13489,O43353,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.25,0.75,2,causal_ppi,0.30000000000000004
+d3401fdca145033e,SPOP,PDX1,O43791,P52945,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.2222,0.778,4,causal_ppi,0.1875
+9f066a89840955fc,SPOP,MACROH2A1,O43791,O75367,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.2222,0.778,5,causal_ppi,0.125
+5a1fea9cdcf6757f,ARRB2,SLC9A5,P32121,Q14940,inhibits,habit_agrees,inhibits,other,other_enzyme,0.3333,0.667,2,causal_ppi,0.42860000000000004
+062d4606d00a6edd,ARRB2,KIF3A,P32121,Q9Y496,stimulates,habit_misleads,inhibits,other,other_enzyme,0.3333,0.667,2,causal_ppi,0.2857
+c3e465a67494ab22,ZBTB7A,RB1,O95365,P06400,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3,0.7000000000000001,2,collectri,0.6571
+caf47ee2559c9adf,ZBTB7A,INS,O95365,P01308,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3,0.7000000000000001,2,collectri,0.6286
+3a5b29e2cb32a9e3,BBC3,BCL2L2,Q9BXH1,Q92843,inhibits,habit_agrees,inhibits,other,other_enzyme,0.2857,0.714,4,causal_ppi,0.33330000000000004
+723fdb8cf8b8cef2,BBC3,BAX,Q9BXH1,Q07812,stimulates,habit_misleads,inhibits,other,other_enzyme,0.2857,0.714,3,causal_ppi,0.16670000000000001
+fd138c2e4ac23fd4,HES1,CD4,Q14469,P01730,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3333,0.667,4,collectri,0.6196
+42f25cff76df96cb,HES1,INS,Q14469,P01308,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3333,0.667,4,collectri,0.6087
+cef1d3dbf965f6de,SOCS3,TRAF6,O14543,Q9Y4K3,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.25,0.75,2,causal_ppi,0.15380000000000002
+3dfec05bc027ae97,SOCS3,STAT4,O14543,Q14765,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.25,0.75,2,causal_ppi,0.07690000000000001
+1563eae2b2a1e309,SGK3,FOXO3,Q96BR1,O43524,inhibits,habit_agrees,inhibits,kinase,kinase,0.3333,0.667,2,kinaseextra,0.5556
+70e8845f3e46a141,SGK3,TSC2,Q96BR1,P49815,stimulates,habit_misleads,inhibits,kinase,kinase,0.3333,0.667,2,causal_ppi,0.4444
+8b9073072aa544c8,SMURF2,YY1,Q9HAU4,P25490,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.2857,0.714,2,causal_ppi,0.2727
+ce23a650cdb57521,SMURF2,CTNNB1,Q9HAU4,P35222,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.2857,0.714,2,causal_ppi,0.18180000000000002
+546435c5c7db7ccf,GFI1,IL7R,Q99684,P16871,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3636,0.636,4,collectri,0.7091000000000001
+d2c3adcf1cca57d7,GFI1,ELANE,Q99684,P08246,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3636,0.636,4,collectri,0.6909000000000001
+dc6a36727eb5c3aa,SNAI2,CCND1,O43623,P24385,inhibits,habit_agrees,inhibits,transcription factor,tf,0.2222,0.778,2,collectri,0.2553
+decf75fd3f137471,SNAI2,CXCL12,O43623,P48061,stimulates,habit_misleads,inhibits,transcription factor,tf,0.2222,0.778,2,collectri,0.234
+c9694889db012899,DYRK2,NOTCH1,Q92630,P46531,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.3,0.7000000000000001,4,causal_ppi,0.6154000000000001
+1dc8923849ad0402,DYRK2,DPYSL3,Q92630,Q14195,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.3,0.7000000000000001,4,causal_ppi,0.5769000000000001
+30a182fa862d7230,ARX,SHOX2,Q96QS3,O60902,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3333,0.667,2,collectri,0.7692
+b6566c8926bf8aa2,ARX,KDM5C,Q96QS3,P41229,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3333,0.667,2,collectri,0.7308
+ba85f99014212104,DUSP16,MAPK1,Q9BY84,P28482,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.3333,0.667,3,kinaseextra,0.2857
+6385436abbdba978,DUSP16,MAPK8IP1,Q9BY84,Q9UQF2,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.3333,0.667,3,causal_ppi,0.1429
+365def43d83cda9c,RB1,UBTF,P06400,P17480,inhibits,habit_agrees,inhibits,transcription factor,tf,0.2727,0.727,3,causal_ppi,0.6053000000000001
+20762285e8945314,RB1,MYOD1,P06400,P15172,stimulates,habit_misleads,inhibits,transcription factor,tf,0.2727,0.727,3,causal_ppi,0.5789000000000001
+c9d8d1cbb8e1ec2e,PTPRJ,MET,Q12913,P08581,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.2727,0.727,4,kinaseextra,0.1875
+8646640ac383987e,PTPRJ,EGFR,Q12913,P00533,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.2727,0.727,4,causal_ppi,0.125
+296e0f813280fee0,PPP2CB,RPS6KB1,P62714,P23443,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.25,0.75,3,causal_ppi,0.2273
+00759b6fc60fc2ce,PPP2CB,TP53,P62714,P04637,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.25,0.75,3,causal_ppi,0.18180000000000002
+1ea8753cb2d64898,GRK2,GNAQ,P25098,P50148,inhibits,habit_agrees,inhibits,kinase,kinase,0.3333,0.667,3,kinaseextra,0.3438
+80617a343cd79d10,GRK2,SMO,P25098,Q99835,stimulates,habit_misleads,inhibits,kinase,kinase,0.3333,0.667,3,causal_ppi,0.3125
+84d2a1defa7f0bf7,BTRC,LGI3,Q9Y297,Q8N145,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.2143,0.786,2,causal_ppi,0.16670000000000001
+8f59e394d957dd9a,BTRC,GLIS2,Q9Y297,Q9BZE0,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.2143,0.786,2,causal_ppi,0.1111
+d467434781c42841,PTPRB,SRC,P23467,P12931,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.3333,0.667,2,causal_ppi,0.2222
+7b47edfd568c8f5c,PTPRB,MAPK3,P23467,P27361,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.3333,0.667,2,causal_ppi,0.1111
+14616b8498505cfd,PTPRE,MAPK3,P23469,P27361,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.3333,0.667,2,causal_ppi,0.2857
+d155df9fe14a34e3,PTPRE,YES1,P23469,P07947,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.3333,0.667,2,causal_ppi,0.1429
+48d4a8222e0a5cbb,BIRC2,UBE2J1,Q13490,Q9Y385,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.3333,0.667,3,causal_ppi,0.3889
+6312edbc82b2eb9f,BIRC2,E2F1,Q13490,Q01094,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.3333,0.667,3,causal_ppi,0.33330000000000004
+b22fc93fb708b6bd,PTEN,SP1,P60484,P08047,inhibits,habit_agrees,inhibits,phosphatase,other_enzyme,0.2,0.8,2,causal_ppi,0.4615
+699c33383fb3b431,PTEN,PDPK1,P60484,O15530,stimulates,habit_misleads,inhibits,phosphatase,other_enzyme,0.2,0.8,2,causal_ppi,0.42310000000000003
+466443df9d5a53cd,CAPN1,MAPT,P07384,P10636,inhibits,habit_agrees,inhibits,protease,other_enzyme,0.375,0.625,2,causal_ppi,0.24
+17f3058762f553ee,CAPN1,CDK5R1,P07384,Q15078,stimulates,habit_misleads,inhibits,protease,other_enzyme,0.375,0.625,2,causal_ppi,0.2
+705a5a226a02c26c,SMURF1,TGFBR2,Q9HCE7,P37173,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.2,0.8,7,causal_ppi,0.1053
+5c7bb0eeaab1814a,SMURF1,SMAD2,Q9HCE7,Q15796,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.2,0.8,5,causal_ppi,0.0526
+e29c40553f3f8b19,ZEB1,IL2,P37275,P60568,inhibits,habit_agrees,inhibits,transcription factor,tf,0.3333,0.667,3,collectri,0.3065
+29373c56fff1c743,ZEB1,FN1,P37275,P02751,stimulates,habit_misleads,inhibits,transcription factor,tf,0.3333,0.667,3,collectri,0.2903
+8e30ce01795094e4,ITCH,ERBB4,Q96J02,Q15303,inhibits,habit_agrees,inhibits,E3 ligase,other_enzyme,0.2143,0.786,3,causal_ppi,0.25
+c8f8bfd23658acdb,ITCH,SH3GL2,Q96J02,Q99962,stimulates,habit_misleads,inhibits,E3 ligase,other_enzyme,0.2143,0.786,3,causal_ppi,0.2083
+2b90f196f4319328,PTK2B,GRB2,Q14289,P62993,stimulates,habit_agrees,stimulates,kinase,kinase,0.8261,0.8260000000000001,8,causal_ppi,0.8571000000000001
+e2d5818bfd02764e,PTK2B,NOS3,Q14289,P29474,inhibits,habit_misleads,stimulates,kinase,kinase,0.8261,0.8260000000000001,8,causal_ppi,0.8857
+8e8658a23c4b6167,BRAF,MAPK7,P15056,Q13164,stimulates,habit_agrees,stimulates,kinase,kinase,0.8462,0.846,2,causal_ppi,0.8235
+c54bc0e2d8114d2a,BRAF,EEF1A1,P15056,P68104,inhibits,habit_misleads,stimulates,kinase,kinase,0.8462,0.846,2,causal_ppi,0.8824000000000001
+54a5a04c0be09af6,MET,PLCG1,P08581,P19174,stimulates,habit_agrees,stimulates,kinase,kinase,0.8,0.8,2,kinaseextra,0.8696
+51532570ffa8d0fb,MET,FAS,P08581,P25445,inhibits,habit_misleads,stimulates,kinase,kinase,0.8,0.8,2,kinaseextra,0.913
+d3b70a649f1b524f,EPHB2,ABL1,P29323,P00519,stimulates,habit_agrees,stimulates,kinase,kinase,0.7273,0.727,2,causal_ppi,0.75
+19b42b230e2b452d,EPHB2,ARHGEF15,P29323,O94989,inhibits,habit_misleads,stimulates,kinase,kinase,0.7273,0.727,2,causal_ppi,0.8333
+98f141561a3b3517,CDK7,MCM2,P50613,P49736,stimulates,habit_agrees,stimulates,kinase,kinase,0.8,0.8,10,causal_ppi,0.9
+d945ee2896d1e0dc,CDK7,ERCC3,P50613,P19447,inhibits,habit_misleads,stimulates,kinase,kinase,0.8,0.8,10,kinaseextra,0.925
+e0f51593b608ea27,PAK4,RAN,O96013,P62826,stimulates,habit_agrees,stimulates,kinase,kinase,0.8,0.8,3,kinaseextra,0.8462000000000001
+65575af1b3371806,PAK4,SMAD2,O96013,Q15796,inhibits,habit_misleads,stimulates,kinase,kinase,0.8,0.8,3,causal_ppi,0.8846
+d1fc56a99ef5c869,MAPK14,MAPKAPK3,Q16539,Q16644,stimulates,habit_agrees,stimulates,kinase,kinase,0.7123,0.712,23,causal_ppi,0.7107
+b56324e2b6d4cafa,MAPK14,EIF4EBP1,Q16539,Q13541,inhibits,habit_misleads,stimulates,kinase,kinase,0.7123,0.712,23,causal_ppi,0.719
+f264a39526233680,ABL1,PXN,P00519,P49023,stimulates,habit_agrees,stimulates,kinase,kinase,0.8462,0.846,16,causal_ppi,0.8239000000000001
+e0b5d534fc39f9ef,ABL1,BTK,P00519,Q06187,inhibits,habit_misleads,stimulates,kinase,kinase,0.8462,0.846,16,causal_ppi,0.8310000000000001
+c86a535cd720aa97,PDK1,SGK3,Q15118,Q96BR1,stimulates,habit_agrees,stimulates,kinase,kinase,0.8462,0.846,2,causal_ppi,0.8235
+44bf85e00ab118ff,PDK1,ITGB3,Q15118,P05106,inhibits,habit_misleads,stimulates,kinase,kinase,0.8462,0.846,2,causal_ppi,0.8824000000000001
+ab2790af6b34f319,HIPK2,CREB1,Q9H2X6,P16220,stimulates,habit_agrees,stimulates,kinase,kinase,0.7692,0.769,3,kinaseextra,0.42310000000000003
+8d076da3c3bb47be,HIPK2,PPM1D,Q9H2X6,O15297,inhibits,habit_misleads,stimulates,kinase,kinase,0.7692,0.769,3,kinaseextra,0.4615
+343415e37473a229,LCK,LCP2,P06239,Q13094,stimulates,habit_agrees,stimulates,kinase,kinase,0.9434,0.9430000000000001,5,causal_ppi,0.8765000000000001
+0b2c0e3e7206daab,LCK,FOXP3,P06239,Q9BZS1,inhibits,habit_misleads,stimulates,kinase,kinase,0.9434,0.9430000000000001,5,kinaseextra,0.8889
+4d52f24486ba6cf6,FYN,DCC,P06241,P43146,stimulates,habit_agrees,stimulates,kinase,kinase,0.913,0.913,5,kinaseextra,0.875
+ebc3886079ecb0c0,FYN,STK11,P06241,Q15831,inhibits,habit_misleads,stimulates,kinase,kinase,0.913,0.913,5,kinaseextra,0.8839
+27d592b859ac35c9,MAPK1,RPS6KA5,P28482,O75582,stimulates,habit_agrees,stimulates,kinase,kinase,0.709,0.709,26,causal_ppi,0.6725
+5c78dff2b86b5e2c,MAPK1,CASP9,P28482,P55211,inhibits,habit_misleads,stimulates,kinase,kinase,0.709,0.709,26,causal_ppi,0.6769000000000001
+9457630e7024bb81,STK11,BRSK1,Q15831,Q8TDC3,stimulates,habit_agrees,stimulates,kinase,kinase,0.9048,0.905,3,causal_ppi,0.8889
+250d10461eb4cfe6,STK11,SMAD4,Q15831,Q13485,inhibits,habit_misleads,stimulates,kinase,kinase,0.9048,0.905,3,kinaseextra,0.9259000000000001
+a841c079b7b644c0,PRKDC,ABL1,P78527,P00519,stimulates,habit_agrees,stimulates,kinase,kinase,0.7931,0.793,4,kinaseextra,0.75
+5f738830b4d9fd9f,PRKDC,ATM,P78527,Q13315,inhibits,habit_misleads,stimulates,kinase,kinase,0.7931,0.793,4,causal_ppi,0.775
+8224d70e0704dae8,FGFR1,GRB14,P11362,Q14449,stimulates,habit_agrees,stimulates,kinase,kinase,0.8571,0.857,3,kinaseextra,0.8571000000000001
+75dedf32331a4e43,FGFR1,CTTN,P11362,Q14247,inhibits,habit_misleads,stimulates,kinase,kinase,0.8571,0.857,3,kinaseextra,0.9048
+d19eeb9444e61026,CHEK2,FOXM1,O96017,Q08050,stimulates,habit_agrees,stimulates,kinase,kinase,0.7647,0.765,2,kinaseextra,0.7778
+19532f3e3ebc5f1b,CHEK2,ASF1A,O96017,Q9Y294,inhibits,habit_misleads,stimulates,kinase,kinase,0.7647,0.765,2,causal_ppi,0.8056000000000001
+bcf0f1e5bb73e307,CIITA,HLA-DMA,P33076,P28067,stimulates,habit_agrees,stimulates,kinase,kinase,0.7143,0.714,2,collectri,0.7879
+78cd4e1761ec32af,CIITA,IL4,P33076,P05112,inhibits,habit_misleads,stimulates,kinase,kinase,0.7143,0.714,2,collectri,0.8182
+b10d5acbbfc57037,CSK,PTK2,P41240,Q05397,stimulates,habit_agrees,stimulates,kinase,kinase,0.75,0.75,5,causal_ppi,0.8864000000000001
+9dfacffc24b7f4a3,CSK,HCK,P41240,P08631,inhibits,habit_misleads,stimulates,kinase,kinase,0.75,0.75,5,kinaseextra,0.9091
+a275180a834a3e06,CSNK2A2,CDC37,P19784,Q16543,stimulates,habit_agrees,stimulates,kinase,kinase,0.7273,0.727,5,kinaseextra,0.8
+c1afef7a1d87b547,CSNK2A2,CTDP1,P19784,Q9Y5B0,inhibits,habit_misleads,stimulates,kinase,kinase,0.7273,0.727,5,causal_ppi,0.8222
+b0a21bf3d406a267,MAP2K1,ARRB2,Q02750,P32121,stimulates,habit_agrees,stimulates,kinase,kinase,0.7692,0.769,2,kinaseextra,0.7143
+ba1e5ee18773b3a1,MAP2K1,TAL1,Q02750,P17542,inhibits,habit_misleads,stimulates,kinase,kinase,0.7692,0.769,2,causal_ppi,0.7619
+deca0d573ec8e2cc,EGFR,MUC1,P00533,P15941,stimulates,habit_agrees,stimulates,kinase,kinase,0.9067,0.907,11,causal_ppi,0.8812000000000001
+7cc75490b7eb1cdb,EGFR,BECN1,P00533,Q14457,inhibits,habit_misleads,stimulates,kinase,kinase,0.9067,0.907,11,kinaseextra,0.8911
+9072cdb9390019e4,TGFBR2,PARD6A,P37173,Q9NPB6,stimulates,habit_agrees,stimulates,kinase,kinase,0.8125,0.812,5,causal_ppi,0.8947
+d29877fb78cde63c,TGFBR2,TGFB2,P37173,P61812,inhibits,habit_misleads,stimulates,kinase,kinase,0.8125,0.812,6,kinaseextra,0.9211
+7c242eab48fb72e3,JAK3,IL7R,P52333,P16871,stimulates,habit_agrees,stimulates,kinase,kinase,0.8824,0.882,6,kinaseextra,0.9
+b44182c13d714291,JAK3,IL2RB,P52333,P14784,inhibits,habit_misleads,stimulates,kinase,kinase,0.8824,0.882,6,kinaseextra,0.9500000000000001
+bf9f5e01999fbf35,PINK1,BCL2L1,Q9BXM7,Q07817,stimulates,habit_agrees,stimulates,kinase,kinase,0.75,0.75,13,kinaseextra,0.5238
+2d2b6ddf931c3c57,PINK1,MFN2,Q9BXM7,O95140,inhibits,habit_misleads,stimulates,kinase,kinase,0.75,0.75,14,kinaseextra,0.5714
+b254839d512255e0,RHOA,DIAPH1,P61586,O60610,stimulates,habit_agrees,stimulates,other,other_enzyme,0.8387,0.839,5,causal_ppi,0.75
+6e9f80422a8d0da9,RHOA,ARHGAP5,P61586,Q13017,inhibits,habit_misleads,stimulates,other,other_enzyme,0.8387,0.839,5,causal_ppi,0.775
+4f261a24a0e6429e,PTK2,PIK3R1,Q05397,P27986,stimulates,habit_agrees,stimulates,phosphatase,other_enzyme,0.9211,0.921,8,kinaseextra,0.898
+9cf11979f2431f73,PTK2,PTPN11,Q05397,Q06124,inhibits,habit_misleads,stimulates,phosphatase,other_enzyme,0.9211,0.921,8,causal_ppi,0.9184
+9b55e02e53777358,SHC1,GRAP,P29353,Q13588,stimulates,habit_agrees,stimulates,other,other_enzyme,0.8333,0.833,3,causal_ppi,0.7692
+ac80b3e5c8a110ea,SHC1,PTPN2,P29353,P17706,inhibits,habit_misleads,stimulates,other,other_enzyme,0.8333,0.833,2,causal_ppi,0.8462000000000001
+84e5f5645139a989,BRCA1,EP300,P38398,Q09472,stimulates,habit_agrees,stimulates,E3 ligase,other_enzyme,0.7059,0.706,2,collectri,0.6901
+3b187fad345de409,BRCA1,CDH3,P38398,P22223,inhibits,habit_misleads,stimulates,E3 ligase,other_enzyme,0.7059,0.706,2,collectri,0.7042
+230d491dd8e913eb,CALM1,MYLK,P0DP23,Q15746,stimulates,habit_agrees,stimulates,other,other_enzyme,0.75,0.75,6,causal_ppi,0.6923
+499399fbecd5866a,CALM1,TRPV6,P0DP23,Q9H1D0,inhibits,habit_misleads,stimulates,other,other_enzyme,0.75,0.75,6,causal_ppi,0.7115
+b06f31e957254d8f,TRPC1,TRPV4,P48995,Q9HBA0,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7143,0.714,5,causal_ppi,0.6667000000000001
+122b4117eea12765,TRPC1,TRPC6,P48995,Q9Y210,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7143,0.714,4,causal_ppi,0.8333
+a3fbed774fa28762,PPP3CA,DNM1,Q08209,Q05193,stimulates,habit_agrees,stimulates,phosphatase,other_enzyme,0.7,0.7000000000000001,3,causal_ppi,0.6667000000000001
+e4361807b3381fcb,PPP3CA,FLNA,Q08209,P21333,inhibits,habit_misleads,stimulates,phosphatase,other_enzyme,0.7,0.7000000000000001,3,kinaseextra,0.75
+b7338959758be97b,PIN1,NANOG,Q13526,Q9H9S0,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7778,0.778,2,causal_ppi,0.7368
+4ab2fe95cb53ec77,PIN1,IRF3,Q13526,Q14653,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7778,0.778,2,causal_ppi,0.7895000000000001
+be3b456d84366672,RHEB,MLST8,Q15382,Q9BVC4,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7143,0.714,10,causal_ppi,0.6667000000000001
+a3d28a82f743d2f9,RHEB,BRAF,Q15382,P15056,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7143,0.714,9,causal_ppi,0.7778
+b667e7b5ee350a09,SUMO1,NR3C1,P63165,P04150,stimulates,habit_agrees,stimulates,E3 ligase,other_enzyme,0.7143,0.714,3,causal_ppi,0.75
+791d658fa812cdc4,SUMO1,PARP1,P63165,P09874,inhibits,habit_misleads,stimulates,E3 ligase,other_enzyme,0.7143,0.714,3,causal_ppi,0.8125
+6a6b08bf3fb01c73,CASP8,CASP8AP2,Q14790,Q9UKL3,stimulates,habit_agrees,stimulates,protease,other_enzyme,0.75,0.75,3,causal_ppi,0.6923
+ec47b0ec91ff206a,CASP8,AR,Q14790,P10275,inhibits,habit_misleads,stimulates,protease,other_enzyme,0.75,0.75,3,causal_ppi,0.7692
+f83c049795537fe7,CALM3,CAMKK2,P0DP25,Q96RR4,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7805,0.78,5,causal_ppi,0.6981
+e833be4cc77bc1ef,CALM3,TRPV6,P0DP25,Q9H1D0,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7805,0.78,5,causal_ppi,0.717
+00b1143ab7a0f408,DVL1,LRRK2,O14640,Q5S007,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7,0.7000000000000001,3,causal_ppi,0.7692
+ad0032f5bf30eb71,DVL1,APC,O14640,P25054,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7,0.7000000000000001,3,causal_ppi,0.8462000000000001
+4d73fdf9cc409da5,GRB2,INPP5D,P62993,Q92835,stimulates,habit_agrees,stimulates,other,other_enzyme,0.9091,0.909,12,causal_ppi,0.9167000000000001
+c74273e98c3cc498,GRB2,STAT3,P62993,P40763,inhibits,habit_misleads,stimulates,other,other_enzyme,0.9091,0.909,12,kinaseextra,0.9583
+23a45a792ade78d7,TNF,CHUK,P01375,O15111,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7273,0.727,2,kinaseextra,0.8333
+f2428cdd73e93b6c,TNF,PPARG,P01375,P37231,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7273,0.727,2,kinaseextra,0.875
+da27426b7ffeb7c2,DDIT3,ATF4,P0DPQ6,P18848,stimulates,habit_agrees,stimulates,other,other_enzyme,0.72,0.72,4,collectri,0.8218000000000001
+a397a71734600634,DDIT3,IL6,P0DPQ6,P05231,inhibits,habit_misleads,stimulates,other,other_enzyme,0.72,0.72,4,collectri,0.8317
+7e79a538357a7121,IRS1,SHC1,P35568,P29353,stimulates,habit_agrees,stimulates,other,other_enzyme,0.8571,0.857,4,causal_ppi,0.8824000000000001
+99acf65139afc4e8,IRS1,PTPN1,P35568,P18031,inhibits,habit_misleads,stimulates,other,other_enzyme,0.8571,0.857,4,kinaseextra,0.9412
+be8f4eb926945a8b,TRAF6,MAP3K14,Q9Y4K3,Q99558,stimulates,habit_agrees,stimulates,E3 ligase,other_enzyme,0.9091,0.909,7,causal_ppi,0.7632
+96ed64cf88f907c0,TRAF6,IL1R1,Q9Y4K3,P14778,inhibits,habit_misleads,stimulates,E3 ligase,other_enzyme,0.9091,0.909,8,causal_ppi,0.7895000000000001
+4f4877f7402657ce,EGR2,MPZ,P11161,P25189,stimulates,habit_agrees,stimulates,E3 ligase,other_enzyme,0.75,0.75,6,collectri,0.9167000000000001
+38cf818de8f4bc6f,EGR2,FASLG,P11161,P48023,inhibits,habit_misleads,stimulates,E3 ligase,other_enzyme,0.75,0.75,6,collectri,0.9306000000000001
+0776b3f6e4fd0657,CALM2,NOS1,P0DP24,P29475,stimulates,habit_agrees,stimulates,other,other_enzyme,0.7419,0.742,4,causal_ppi,0.6981
+287a6a2be392c983,CALM2,GRM7,P0DP24,Q14831,inhibits,habit_misleads,stimulates,other,other_enzyme,0.7419,0.742,4,causal_ppi,0.717
+813c9400dfa8832d,REL,CXCL8,Q04864,P10145,stimulates,habit_agrees,stimulates,transcription factor,tf,0.9211,0.921,10,collectri,0.9279000000000001
+07972ccd0a7b2e34,REL,IL6,Q04864,P05231,inhibits,habit_misleads,stimulates,transcription factor,tf,0.9211,0.921,10,collectri,0.9369000000000001
+4c95e3010c5db10f,PAX3,MYOG,P23760,P15173,stimulates,habit_agrees,stimulates,transcription factor,tf,0.7895,0.789,2,collectri,0.9237000000000001
+57be3fdeaaef2594,PAX3,MBP,P23760,P02686,inhibits,habit_misleads,stimulates,transcription factor,tf,0.7895,0.789,2,collectri,0.9322
+69e957ee65b00b3b,HSF1,MAP3K14,Q00613,Q99558,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8966,0.897,4,collectri,0.9333
+1300abcf3d63eb71,HSF1,HSD17B6,Q00613,O14756,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8966,0.897,4,collectri,0.9429000000000001
+87f91883885d424d,SMAD6,ACVR1,O43541,Q04771,stimulates,habit_agrees,stimulates,transcription factor,tf,0.75,0.75,3,causal_ppi,0.5161
+d156cc89559352a2,SMAD6,WDR5,O43541,P61964,inhibits,habit_misleads,stimulates,transcription factor,tf,0.75,0.75,3,collectri,0.5484
+dcecbe77fcf938db,GLI2,FOXL1,P10070,Q12952,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8235,0.8240000000000001,2,collectri,0.5232
+7f9d8d1139d72e1e,GLI2,COL10A1,P10070,Q03692,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8235,0.8240000000000001,2,collectri,0.5298
+ef6e0c55e1f81617,HIF1A,SLC2A3,Q16665,P11169,stimulates,habit_agrees,stimulates,transcription factor,tf,0.9434,0.9430000000000001,6,collectri,0.9455
+ed58f132666dc2f4,HIF1A,MYC,Q16665,P01106,inhibits,habit_misleads,stimulates,transcription factor,tf,0.9434,0.9430000000000001,6,collectri,0.9477000000000001
+f1359fc3c14a9fc5,NR3C2,EGFR,P08235,P00533,stimulates,habit_agrees,stimulates,transcription factor,tf,0.7692,0.769,3,collectri,0.8393
+0784ae45544a6ac9,NR3C2,ATP1B1,P08235,P05026,inhibits,habit_misleads,stimulates,transcription factor,tf,0.7692,0.769,3,collectri,0.8571000000000001
+acbc32e757993a43,SREBF2,FDFT1,Q12772,P37268,stimulates,habit_agrees,stimulates,transcription factor,tf,0.875,0.875,4,collectri,0.8551000000000001
+dba01142c9fe21dc,SREBF2,ABCA1,Q12772,O95477,inhibits,habit_misleads,stimulates,transcription factor,tf,0.875,0.875,4,collectri,0.8696
+fb16b6a80ae9222f,NR1H2,NRAS,P55055,P01111,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8824,0.882,2,collectri,0.8491000000000001
+c8a827b482dc611d,NR1H2,G6PC1,P55055,P35575,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8824,0.882,2,collectri,0.8679
+d60e92c9d1af9b75,TBX21,CXCR3,Q9UL17,P49682,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8462,0.846,3,collectri,0.9231
+028f6eae37d3dfe8,TBX21,IL2,Q9UL17,P60568,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8462,0.846,3,collectri,0.9423
+800a420ac4a776e1,FOXA2,SHH,Q9Y261,Q15465,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8519,0.852,6,collectri,0.8806
+0754558a83ea1654,FOXA2,SLC2A2,Q9Y261,P11168,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8519,0.852,6,collectri,0.8881
+31b1e6dc655ea354,DNMT3B,RASSF1,Q9UBC3,Q9NS23,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8462,0.846,3,collectri,0.8841
+a73bb798f876dbaf,DNMT3B,CDH1,Q9UBC3,P12830,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8462,0.846,3,collectri,0.8986000000000001
+1f78c1ebd01d6288,POU2F1,NOS2,P14859,P35228,stimulates,habit_agrees,stimulates,transcription factor,tf,0.7308,0.731,5,collectri,0.8455
+a9650389c3900d85,POU2F1,HLA-DRA,P14859,P01903,inhibits,habit_misleads,stimulates,transcription factor,tf,0.7308,0.731,5,collectri,0.8537
+c05f374541340430,NR2F2,NR2F6,P24468,P10588,stimulates,habit_agrees,stimulates,transcription factor,tf,0.7083,0.708,4,causal_ppi,0.7619
+c3909e2251baf652,NR2F2,POU5F1,P24468,Q01860,inhibits,habit_misleads,stimulates,transcription factor,tf,0.7083,0.708,4,collectri,0.7738
+1217b08ade40f5d8,FOS,MYC,P01100,P01106,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8723,0.872,11,collectri,0.9152
+4d130f800b4798ed,FOS,IL6,P01100,P05231,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8723,0.872,11,collectri,0.9181
+512a731082ca6224,DNMT1,TP53,P26358,P04637,stimulates,habit_agrees,stimulates,transcription factor,tf,0.7805,0.78,5,collectri,0.8967
+4649788852908613,DNMT1,RB1,P26358,P06400,inhibits,habit_misleads,stimulates,transcription factor,tf,0.7805,0.78,5,collectri,0.9022
+6778cb0f43afabba,USF1,CEBPA,P22415,P49715,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8857,0.886,8,collectri,0.9339000000000001
+e976a47f505b804b,USF1,PTGS2,P22415,P35354,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8857,0.886,8,collectri,0.9383
+8d916cb948a46a03,FOXO3,SIRT1,O43524,Q96EB6,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8837,0.884,4,collectri,0.8384
+8e7d707878b1b930,FOXO3,BIRC5,O43524,O15392,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8837,0.884,4,collectri,0.8434
+c7ad7ce9a31c017b,ESR1,CYP19A1,P03372,P11511,stimulates,habit_agrees,stimulates,transcription factor,tf,0.9053,0.905,8,collectri,0.9295
+057f09fe21e9d0e2,ESR1,OXT,P03372,P01178,inhibits,habit_misleads,stimulates,transcription factor,tf,0.9053,0.905,8,collectri,0.931
+df4eec532ad6a1cb,HMGA1,PTGS2,P17096,P35354,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8571,0.857,3,collectri,0.9315
+ab9fe6bf59e3a338,HMGA1,IL4,P17096,P05112,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8571,0.857,3,collectri,0.9452
+2bae803baea2d997,NFKB1,BCL2L1,P19838,Q07817,stimulates,habit_agrees,stimulates,transcription factor,tf,0.9545,0.9550000000000001,20,collectri,0.9165000000000001
+fa0f58db5058fdef,NFKB1,IL12B,P19838,P29460,inhibits,habit_misleads,stimulates,transcription factor,tf,0.9545,0.9550000000000001,20,collectri,0.9188000000000001
+6c5d4e351be67f17,ESR2,OXT,Q92731,P01178,stimulates,habit_agrees,stimulates,transcription factor,tf,0.8333,0.833,7,collectri,0.8798
+faea52484ea53cfa,ESR2,CCND1,Q92731,P24385,inhibits,habit_misleads,stimulates,transcription factor,tf,0.8333,0.833,7,collectri,0.8846
+58668051afaf8a9d,TCF4,CDKN1A,P15884,P38936,stimulates,habit_agrees,stimulates,transcription factor,tf,0.75,0.75,2,collectri,0.7895000000000001
+688eeb5e858802fe,TCF4,KDR,P15884,P35968,inhibits,habit_misleads,stimulates,transcription factor,tf,0.75,0.75,2,collectri,0.807
+a85037015ee3cb6d,ETV4,SYN2,P43268,Q92777,stimulates,habit_agrees,stimulates,transcription factor,tf,0.85,0.85,2,collectri,0.9385
+1090ae554b030af4,ETV4,SHH,P43268,Q15465,inhibits,habit_misleads,stimulates,transcription factor,tf,0.85,0.85,2,collectri,0.9538000000000001
+b5da0033c82dffa6,EGR1,SP1,P18146,P08047,stimulates,habit_agrees,stimulates,transcription factor,tf,0.875,0.875,5,collectri,0.8858
+1eb6b6d45b39454c,EGR1,FAS,P18146,P25445,inhibits,habit_misleads,stimulates,transcription factor,tf,0.875,0.875,5,collectri,0.8886000000000001

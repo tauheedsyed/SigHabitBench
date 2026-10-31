@@ -1,41 +1,84 @@
-audit_id,source,target,answer,condition,protein_usually,n_refs,component,verdict
-A01,TCF4,KDR,inhibits,habit_misleads,stimulates,2,collectri,Y
-A02,EGR1,FAS,inhibits,habit_misleads,stimulates,5,collectri,Y
-A03,POU2F1,HLA-DRA,inhibits,habit_misleads,stimulates,5,collectri,Y
-A04,PINK1,BCL2L1,stimulates,habit_agrees,stimulates,13,kinaseextra,?
-A05,ESR1,OXT,inhibits,habit_misleads,stimulates,8,collectri,?
-A06,GLI2,COL10A1,inhibits,habit_misleads,stimulates,2,collectri,Y
-A07,NEDD4,RAPGEF2,inhibits,habit_agrees,inhibits,3,causal_ppi,?
-A08,HDAC1,ABCB1,inhibits,habit_agrees,inhibits,2,collectri,Y
-A09,MAPK14,MAPKAPK3,stimulates,habit_agrees,stimulates,23,causal_ppi,?
-A10,HIF1A,MYC,inhibits,habit_misleads,stimulates,6,collectri,Y
-A11,LCK,LCP2,stimulates,habit_agrees,stimulates,5,causal_ppi,?
-A12,BRCA1,CDH3,inhibits,habit_misleads,stimulates,2,collectri,Y
-A13,HMGA1,IL4,inhibits,habit_misleads,stimulates,3,collectri,Y
-A14,ZBTB7A,RB1,inhibits,habit_agrees,inhibits,2,collectri,Y
-A15,SNAI2,CCND1,inhibits,habit_agrees,inhibits,2,collectri,Y
-A16,LCK,FOXP3,inhibits,habit_misleads,stimulates,5,kinaseextra,N
-A17,CDK7,ERCC3,inhibits,habit_misleads,stimulates,10,kinaseextra,?
-A18,PPP2CB,RPS6KB1,inhibits,habit_agrees,inhibits,3,causal_ppi,?
-A19,FOXO3,BIRC5,inhibits,habit_misleads,stimulates,4,collectri,Y
-A20,FOXO3,SIRT1,stimulates,habit_agrees,stimulates,4,collectri,Y
-A21,CIITA,IL4,inhibits,habit_misleads,stimulates,2,collectri,Y
-A22,HDAC1,COL1A2,stimulates,habit_misleads,inhibits,2,collectri,N
-A23,SREBF2,ABCA1,inhibits,habit_misleads,stimulates,4,collectri,Y
-A24,DNMT3B,RASSF1,stimulates,habit_agrees,stimulates,3,collectri,N
-A25,HMGA1,PTGS2,stimulates,habit_agrees,stimulates,3,collectri,Y
-A26,TBX21,IL2,inhibits,habit_misleads,stimulates,3,collectri,Y
-A27,PTK2,PIK3R1,stimulates,habit_agrees,stimulates,8,kinaseextra,?
-A28,NFIL3,PTGS2,inhibits,habit_agrees,inhibits,3,collectri,Y
-A29,NR3C2,ATP1B1,inhibits,habit_misleads,stimulates,3,collectri,?
-A30,HES1,CD4,inhibits,habit_agrees,inhibits,4,collectri,?
-A31,CHEK2,FOXM1,stimulates,habit_agrees,stimulates,2,kinaseextra,Y
-A32,DUSP16,MAPK1,inhibits,habit_agrees,inhibits,3,kinaseextra,Y
-A33,MAP2K1,TAL1,inhibits,habit_misleads,stimulates,2,causal_ppi,?
-A34,ARRB2,SLC9A5,inhibits,habit_agrees,inhibits,2,causal_ppi,?
-A35,PINK1,MFN2,inhibits,habit_misleads,stimulates,14,kinaseextra,?
-A36,ZEB1,IL2,inhibits,habit_agrees,inhibits,3,collectri,Y
-A37,CHEK2,ASF1A,inhibits,habit_misleads,stimulates,2,causal_ppi,?
-A38,CSK,HCK,inhibits,habit_misleads,stimulates,5,kinaseextra,?
-A39,PTPRB,SRC,inhibits,habit_agrees,inhibits,2,causal_ppi,Y
-A40,CSNK2A2,CDC37,stimulates,habit_agrees,stimulates,5,kinaseextra,?
+audit_id,source,target,answer,condition,protein_usually,n_refs,component,verdict,papers_conflict,supporting_sentence
+A01,TCF4,KDR,inhibits,habit_misleads,stimulates,2,collectri,Y,False,
+A02,EGR1,FAS,inhibits,habit_misleads,stimulates,5,collectri,Y,False,"PMID: 12556466 says ""The regulation of these genes by Egr1 was demonstrated using Egr1 antisense oligonucleotides that further implicated Egr1 in resistance to apoptotic signals. One mechanism was illustrated by the ability of Egr1 to inhibit CD95 (Fas/Apo) expression, leading to insensitivity to FasL. """
+A03,POU2F1,HLA-DRA,inhibits,habit_misleads,stimulates,5,collectri,Y,False,"PMID: 10437913 says ""We have examined the effect of Rb expression on the activation of the promoter for HLA-DRA, the prototype class II gene. Oct-1, a POU domain transcription factor, was identified as a repressor of HLA-DRA promoter activity in the Rb-defective cells. ""
+
+PMID: 11533238 says ""Treatment of Rb-defective tumor cells with HDAC inhibitors greatly reduced the DNA binding activity of Oct-1, a repressor of inducible HLA-DRA promoter activation.""
+
+
+
+PMID: 15105429 says ""In the case of the HLA-DRA gene, which encodes the HLA-DR heavy chain, previous work has indicated that this loss of inducibility is attributable to Oct-1 binding to the HLA-DRA promoter. In this report, we used Oct-1 antisense transformants to determine that Oct-1 represses the interferon-gamma response of the endogenous HLA-DRA gene. This determination is consistent with results from a chromatin immunoprecipitation assay, indicating that Oct-1 occupies the endogenous HLA-DRA promoter when the HLA-DRA promoter is inactive in Rb-defective cells but not when the promoter is converted to a previously defined, transcriptionally competent state, induced by treatment of the Rb-defective cells with the HDAC inhibitor, trichostatin A"""
+A04,PINK1,BCL2L1,stimulates,habit_agrees,stimulates,13,kinaseextra,?,False,had Bcl-xL but no mention of PINK1
+A05,ESR1,OXT,inhibits,habit_misleads,stimulates,8,collectri,?,False,"PMID: 15842231 says ""The oestrogenic stimulation of the oxytocin promoter apparently is dependent on the stimulation of the transcriptional activity of this nuclear orphan receptor by ERK-1/ERK-2 mitogen-activated protein kinases (MAP kinases)"""
+A06,GLI2,COL10A1,inhibits,habit_misleads,stimulates,2,collectri,Y,False,"PMID: 17328886 says ""Analysis of fetal limbs showed that Gli2 is a negative regulator and Gli3 a positive regulator of type X collagen expression."""
+A07,NEDD4,RAPGEF2,inhibits,habit_agrees,inhibits,3,causal_ppi,?,False,
+A08,HDAC1,ABCB1,inhibits,habit_agrees,inhibits,2,collectri,Y,False,"PMID: 20037778 says ""Overexpression of UHRF1 in NCI/ADR-RES cells can induce deacetylation of histones H3 and H4 on the MDR1 promoter, which is facilitated by recruitment of HDAC1 to the MDR1 promoter. Loss of histone acetylation is accompanied by loss of binding of the key transcription factor, MyoD, CBP and p300, locking in marked suppression of MDR1"""
+A09,MAPK14,MAPKAPK3,stimulates,habit_agrees,stimulates,23,causal_ppi,?,False,
+A10,HIF1A,MYC,inhibits,habit_misleads,stimulates,6,collectri,Y,False,"PMID: 18616527 says ""Recently, several research groups have demonstrated that hypoxia-inducible factor (HIF)-1alpha plays a crucial role in hypoxia-induced cell-cycle arrest by inhibiting c-Myc and subsequently inducing p21(cip1) expression. However, we found that hypoxic growth arrest could occur even in p21-null cancer cells, and addressed the p21-independent process of cell-cycle arrest. ""
+
+
+PMID: 19845622 says ""To understand how hypoxia drives tumor progression, we have shown recently that the hypoxia-inducible transcription factor, HIF-1alpha, is critical for transcriptional repression of DNA repair genes by a noncanonical mode of action referred to as the ""HIF-1alpha-c-Myc axis."""""
+A11,LCK,LCP2,stimulates,habit_agrees,stimulates,5,causal_ppi,?,False,
+A12,BRCA1,CDH3,inhibits,habit_misleads,stimulates,2,collectri,Y,False,"PMID: 19882246 says ""(ChIP) assays were used to confirm recruitment of BRCA1 to specific promoters. In results, we demonstrate that functional BRCA1 represses the expression of cytokeratins 5(KRT5) and 17(KRT17) and p-Cadherin (CDH3) in HCC1937 and T47D breast cancer cell lines at both mRNA and protein level. ChIP assays demonstrate that BRCA1 is recruited to the promoters of KRT5, KRT17 and CDH3, and re-ChIP assays confirm that BRCA1 is recruited independently to form c-Myc and Sp1 complexes on the CDH3 promoter. We show that siRNA-mediated inhibition of endogenous c-Myc (and not Sp1) results in a marked increase in CDH3 expression analogous to that observed following the inhibition of endogenous BRCA1."""
+A13,HMGA1,IL4,inhibits,habit_misleads,stimulates,3,collectri,?,False,"PMID: 7559428 says ""The non-histone chromosomal protein HMG-I(Y) participates in repression of transcription directed by a promoter which confers interleukin 4 (IL-4)-inducible activation in transfected B cell lines. Metabolic labeling, phosphoamino acid analyses, and in vitro phosphorylation studies demonstrate that IL-4 induces serine phosphorylation of HMG-I(Y) in B lymphocytes. Phosphopeptide mapping shows that the predominant site of phosphorylation contains a casein kinase II consensus motif. The immunosuppressive agent rapamycin has been shown preferentially to inhibit IgE production by IL-4-treated human B cells. It is shown here that rapamycin inhibits both activation of the human germ line epsilon promoter by IL-4 and IL-4-inducible phosphorylation of HMG-I(Y).""
+
+PMID: 8986808 says "" It has been shown that HMG I(Y) proteins enhance NF-kappa B binding to the interferon beta promoter and virus-mediated interferon beta promoter induction. We show that HMG I(Y) proteins exert an opposite effect on the DNA binding of NF-AT factors and the induction of the IL-4 promoter in T lymphocytes"""
+A14,ZBTB7A,RB1,inhibits,habit_agrees,inhibits,2,collectri,Y,True,"PMID: 18801742 says "" We found that FBI-1 potently represses transcription of the Rb gene, a tumor suppressor gene important in cell cycle arrest. ""
+
+BUT PMCID: PMC4036521 says ""Inactivation of Zbtb7a in vivo leads to Rb downregulation, PICS bypass and invasive prostate cancer. Notably, we found that ZBTB7A is genetically lost, as well as downregulated at both the mRNA and protein levels, in a subset of human advanced prostate cancers. Thus, we identify ZBTB7A as a context-dependent cancer gene that can act as an oncogene in some contexts but also has oncosuppressive-like activity in PTEN-null tumors."""
+A15,SNAI2,CCND1,inhibits,habit_agrees,inhibits,2,collectri,Y,True,"PMCID: PMC2943978 says "" Furthermore, ectopic expression of Slug decreased cyclin D1 expression in both PC-3 and DU-145 cells, and knockdown of Slug by shRNA upregulated cyclin D1 expression in these cancer cells""\
+
+BUT PMID: 21044962  says "" Overexpression of SLUG in the SLUG-deficient breast cancer cells significantly decreased the levels of mRNA and protein of UbcH5c but only elevated the protein levels of cyclin D1. On the contrary, knockdown of SLUG in SLUG-high breast cancer cells elevated the levels of UbcH5c while decreasing the level of cyclin D1 protein. """
+A16,LCK,FOXP3,inhibits,habit_misleads,stimulates,5,kinaseextra,N,False,"PMID: 24155921 says ""Thus we demonstrate for the first time that LCK upregulates FOXP3 by tyrosine phosphorylation, resulting in decreased MMP9, SKP2, and VEGF-A expression, and suppressed cellular invasion."""
+A17,CDK7,ERCC3,inhibits,habit_misleads,stimulates,10,kinaseextra,?,False,
+A18,PPP2CB,RPS6KB1,inhibits,habit_agrees,inhibits,3,causal_ppi,X,False,
+A19,FOXO3,BIRC5,inhibits,habit_misleads,stimulates,4,collectri,Y,False,"PMID: 18426407 says ""Finally, we find that FKHRL1-TM decreases the expression of survivin, a member of the inhibitor of apoptosis protein and that survivin re-expression partially rescues the deleterious effects of FKHRL1""
+
+PMID: 19211844 says ""Here, we show that inhibition of PI3K-PKB signaling in human NB cells induces nuclear translocation of FOXO3/FKHRL1, represses the prosurvival protein BIRC5/Survivin, and sensitizes to DNA-damaging agents. """
+A20,FOXO3,SIRT1,stimulates,habit_agrees,stimulates,4,collectri,Y,False,"PMID: 15604409 says "" Knockdown of Foxo3a expression inhibited the starvation-induced increase in SIRT1 expression. Stimulation of SIRT1 transcription by Foxo3a was mediated through two p53 binding sites present in the SIRT1 promoter, and a nutrient-sensitive physical interaction was observed"""
+A21,CIITA,IL4,inhibits,habit_misleads,stimulates,2,collectri,Y,False,"PMID: 10946277 says ""The MHC class II transactivator (CIITA) activates the expression of multiple genes involved in Ag presentation, but inhibits Th2-type cytokine production, including IL-4, during Th1 cell differentiation. "" and ""CIITA mutants that retain the ability to interact with CBP/p300 are sufficient to inhibit NF-AT-mediated IL-4 gene expression.""
+
+PMID: 17645498 says ""In conclusion, CIITA was active in the repression of transcription activation of human IL-4 gene in both the T-cell line and the primary human CD4 T cells by preventing transcription factors from binding to IL-4 promoter through histone hypoacetylation. Our data confirm a potential significant role of CIITA in controlling Th1/Th2 differentiation via modulation of IL-4 gene activation."""
+A22,HDAC1,COL1A2,stimulates,habit_misleads,inhibits,2,collectri,N,False,"PMID: 16464847 says ""RFX5 specifically interacts with histone deacetylase 2 (HDAC2) and the mammalian transcriptional repressor (mSin3B), whereas RFX1 preferably interacts with HDAC1 and mSin3A. HDAC2 cooperates with RFX5 to down-regulate collagen promoter activity, whereas HDAC1 enhances inhibition of collagen promoter activity by RFX1."" and ""Collectively, our data strongly indicate two separate pathways for RFX proteins to repress collagen gene expression as follows: one for RFX5/HDAC2 in interferon-gamma-mediated repression, and the other for RFX1/HDAC1 in methylation-mediated collagen silencing.""
+
+PMID: 24058639 says ""n the functional studies, HDAC1 overexpression magnified the inhibitory effect of Fli1 on the COL1A2 promoter. Moreover, pharmacological blockade of HDAC1 by entinostat enhanced collagen production in dermal fibroblasts. Collectively, these results indicate that under quiescent conditions Fli1 recruits HDAC1/p300 to the COL1A2 promoter and suppresses the expression of the COL1A2 gene by chromatin remodeling through histone deacetylation. TGF-β-dependent phosphorylation of Fli1 at threonine 312 is a critical step regulating the remodeling of the Fli1 transcription repressor complex, leading to transcriptional activation of the COL1A2 gene."""
+A23,SREBF2,ABCA1,inhibits,habit_misleads,stimulates,4,collectri,Y,True,"PMID: 15358760 says ""Our results showed that sterol depletion activated SREBP2 and increased its target, low density lipoprotein receptor mRNA, with a concurrent decrease in the ABCA1 mRNA."" and ""Overexpression of the N terminus of SREBP2 (SREBP2(N)), an active form of SREBP2, also inhibited the ABCA1 promoter activity.""
+
+PMID: 15922656 says ""Shutdown of ABCA1 expression in the absence of sterols or in certain tissues is mediated by corepressor complexes involving unliganded LXR, sterol-regulatory element binding protein 2 (SREBP2), Sp3, and the SCAN-domain protein ZNF202, which also impacts nuclear receptor signaling. ""
+
+PMID: 16901265 says ""However, it was subsequently reported that ABCA1 expression is down-regulated by SREBP-2 through binding of SREBP-2 to an E-box element in ABCA1's proximal promoter. As statin treatment induces SREBP-2 activation, this may provide an alternative explanation for the statin-mediated down-regulation of ABCA1"" and ""We observed increased ABCA1 mRNA levels in SREBP-2-overexpressing cells and decreased levels in cells lacking a functional SREBP-2 pathway, which were restored when the SREBP-2 pathway was reinstated.""
+
+
+CONFLICT: two papers support inhibition (SREBP2 overexpression inhibits the ABCA1 promoter; ABCA1 down-regulated by SREBP-2 via an E-box), but the third reports increased ABCA1 mRNA in SREBP-2-overexpressing cells. Counted Y on the majority and what I understood."
+A24,DNMT3B,RASSF1,stimulates,habit_agrees,stimulates,3,collectri,N,False,"PMID: 18006804 says ""In this report, we provide first experimental evidence showing a direct involvement of DeltaDNMT3B4 in regulating RASSF1A promoter methylation in human lung cancer cells. Knockdown of DeltaDNMT3B4 expression by small interfering RNA resulted in a rapid demethylation of RASSF1A promoter and reexpression of RASSF1A mRNA but had no effect on p16 promoter in the lung cancer cells. Conversely, normal bronchial epithelial cells with stably transfected DeltaDNMT3B4 gained an increased DNA methylation in RASSF1A promoter but not p16 promoter.""
+
+says "" We show that HOXB3 binds to the DNA methyltransferase DNMT3B gene and increases its expression. DNMT3B, in turn, is recruited to the RASSF1A promoter, resulting in hypermethylation and silencing of RASSF1A expression."" and ""Expression analysis in human lung adenocarcinoma samples reveals that RASSF1A silencing strongly correlates with overexpression of HOXB3 and DNMT3B."""
+A25,HMGA1,PTGS2,stimulates,habit_agrees,stimulates,3,collectri,Y,False,"PMID: 17483309 says ""We also found that HMGA1a up-regulates cyclooxygenase 2 (COX-2) expression in transgenic tumors. Moreover, both HMGA1a and COX-2 expression are up-regulated in high-grade human leiomyosarcomas."" and ""These findings show that HMGA1a functions as an oncogene when overexpressed in the uterus and contributes to the pathogenesis of human uterine cancer by activating COX-2 expression.""
+
+PMID: 22898640 says ""HMGA1 binds directly to the COX-2 promoter at an AT-rich region in vivo in three pancreatic cancer cell lines. In addition, HMGA1 induces COX-2 expression in pancreatic epithelial cells, while knock-down of HMGA1 results in repression of COX-2 in pancreatic cancer cells. """
+A26,TBX21,IL2,inhibits,habit_misleads,stimulates,3,collectri,Y,False,"PMID: 16275766 says ""Previous work from our laboratory revealed a repressor function for the T-box transcription factor, T-bet, in IL-2 gene transcription. Here, we report that T-bet(S508) is required for the optimal repression of IL-2 production in developing Th1 cells."""
+A27,PTK2,PIK3R1,stimulates,habit_agrees,stimulates,8,kinaseextra,?,False,
+A28,NFIL3,PTGS2,inhibits,habit_agrees,inhibits,3,collectri,Y,False,"PMID: 12743120 says ""Finally, E4BP4 overexpression inhibited PTH-induced activity of a cyclooxygenase-2 promoter-reporter construct. Our data suggest a role for E4BP4 in attenuation of PTH target gene transcription in osteoblasts.""
+
+PMID: 21212137 says ""Overexpression of NFIL3 in granulosa cells inhibited the induction of prostaglandin-endoperoxide synthase 2 (Ptgs2), progesterone receptor (Pgr), epiregulin (Ereg), and amphiregulin (Areg) and down-regulated levels of prostaglandin E2. The inhibitory effect on Ptgs2 induction was reversed by NFIL3 small interfering RNA treatment."""
+A29,NR3C2,ATP1B1,inhibits,habit_misleads,stimulates,3,collectri,?,False,
+A30,HES1,CD4,inhibits,habit_agrees,inhibits,4,collectri,?,False,
+A31,CHEK2,FOXM1,stimulates,habit_agrees,stimulates,2,kinaseextra,Y,False,"PMID: 17101782 says ""Furthermore, FoxM1 protein is phosphorylated by checkpoint kinase 2 (Chk2) in response to DNA damage. This phosphorylation of FoxM1 on serine residue 361 caused increased stability of the FoxM1 protein with corresponding increased transcription of XRCC1 and BRCA2 genes, both of which are required for repair of DNA damage. These results identify a novel role for FoxM1 in the transcriptional response during DNA damage/checkpoint signaling and show a novel mechanism by which Chk2 protein regulates expression of DNA repair enzymes."""
+A32,DUSP16,MAPK1,inhibits,habit_agrees,inhibits,3,kinaseextra,Y,False,"PMID: 12794087 says ""We previously showed that MKP-7 suppresses MAPK activation in COS-7 cells in the order of selectivity, JNK >> p38 > ERK, but interacts with ERK as well as JNK and p38. ""
+
+CAVEAT: the paper reports ERK as the LEAST affected of the three MAPKs
+(JNK >> p38 > ERK). Direction supports inhibition but the effect on MAPK1
+specifically is weak."
+A33,MAP2K1,TAL1,inhibits,habit_misleads,stimulates,2,causal_ppi,?,False,
+A34,ARRB2,SLC9A5,inhibits,habit_agrees,inhibits,2,causal_ppi,?,False,
+A35,PINK1,MFN2,inhibits,habit_misleads,stimulates,14,kinaseextra,?,False,
+A36,ZEB1,IL2,inhibits,habit_agrees,inhibits,3,collectri,Y,False,"PMID: 11893416 says ""Binding of the transcription factor ZEB (NIL-2-a) to the negative regulatory element NRE-A plays a critical role in silencing IL-2 expression in the EL-4 cell line, a murine Th1-like lymphoma.""
+
+
+PMID: 19181930 says "" Here we examine the role of zinc finger E-box-binding protein (ZEB) 1, a homeodomain/Zn finger transcription factor, as a repressor of IL-2 gene transcription. We show here that ZEB1 is expressed in non-stimulated and stimulated T cells and using chromatin immunoprecipitation assays we show that ZEB1 binds to the IL-2 promoter. Over-expression of ZEB1 can repress IL-2 promoter activity, as well as endogenous IL-2 mRNA production in EL-4 T cells, and this repression is dependent on the ZEB-binding site at -100. "" and ""Thus, ZEB1 may function to recruit a repressor complex to the IL-2 promoter.""
+
+PMID: 9574548 says ""We provide evidence that repression of IL-2 gene expression in Th2 cells and partial repression in Th1 cells are mediated by ZEB, a zinc finger, E box-binding transcription factor. This factor binds to a negative regulatory element, NRE-A, in the IL-2 promoter, thereby acting as a potent repressor of IL-2 transcription."""
+A37,CHEK2,ASF1A,inhibits,habit_misleads,stimulates,2,causal_ppi,?,False,
+A38,CSK,HCK,inhibits,habit_misleads,stimulates,5,kinaseextra,?,False,
+A39,PTPRB,SRC,inhibits,habit_agrees,inhibits,2,causal_ppi,Y,False,"PMID: 27314562 says ""Overexpression of PTPRB reduced cell proliferation rate, colony formation efficiency, soft agar growth and cell invasion in A549 and H1299 cells, as well as tumour growth rate in A549 xenograft. Knockdown of PTPRB increased Src phosphorylation and cell invasion, which was reversed by Src inhibitor PP2."""
+A40,CSNK2A2,CDC37,stimulates,habit_agrees,stimulates,5,kinaseextra,?,False,

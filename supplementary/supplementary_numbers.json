@@ -1,0 +1,29 @@
+{
+  "sha256": {
+    "sighabit_v2.jsonl": "6c04ef4a25e0c52c97b9bcaa0a20f0a61a2e20bd01ac83ae3f71f49f8538bafb",
+    "sighabit_v2_full.jsonl": "99be1e9522e4f933e6ff7b6196d0540de2e59f9f51f46e1a6652db9ede06799d",
+    "sighabit_v2_usually.jsonl": "941726bab501802565750cb2d5dbdd0e759db4e31e13c5ef48671efba58c2ac5",
+    "prompts_v2.json": "8b042ed3a5b15ff61a668dda07b20128dc9a10e5e165834a6ebc83c78e53ac6d"
+  },
+  "n_models": 16,
+  "n_informative": 14,
+  "one_sided": [
+    "llama-3-70b",
+    "llama-3.1-8b"
+  ],
+  "one_sided_cutoff": 0.85,
+  "n_responses": 10988,
+  "n_failed_attempts": 4454,
+  "unparseable": 1,
+  "median_gap_all": 29.6,
+  "median_gap_informative": 30.6,
+  "median_gap_informative_CI": [
+    22.7,
+    40.3
+  ],
+  "component_items": {
+    "causal_ppi": 107,
+    "collectri": 72,
+    "kinaseextra": 37
+  }
+}
