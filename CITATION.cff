@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use SigHabitBench, please cite it as below."
+title: "SigHabitBench: within-protein evaluation of LLM knowledge of signed regulatory interactions"
+authors:
+  - family-names: Tauheed
+    given-names: Syed
+    affiliation: "CECOS-RMI Precision Medicine Lab, Rehman Medical Institute, Peshawar, Pakistan"
+  - family-names: Khan
+    given-names: Faisal
+    affiliation: "Institute of Integrative Biosciences, CECOS University, Peshawar, Pakistan"
+repository-code: "https://github.com/tauheedsyed/SigHabitBench"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-31"
